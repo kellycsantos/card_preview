@@ -1,8 +1,9 @@
-@import './_global_colors.scss';
+@use './_global_colors.scss' as *; 
 
 .page{
   background-color: $light_grayish_blue !important;
   align-content: center;
   height: 100dvh;
+  
 }
 

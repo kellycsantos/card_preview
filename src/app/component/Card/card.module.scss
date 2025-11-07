@@ -3,17 +3,19 @@
 .card{
     background-color: $white;
     display: flex;
-    margin: 10px 50px;
+    margin: 0px auto;
     border-radius: 10px;
+    overflow: hidden;
+    max-width: 500px;
+    height: 280px;
     .card__image{
-        width: 100%;
+        width: 40%;
         height: 100%;
         object-fit: cover;
     }
 
     .card__content{
         padding: 35px;
-        border: 1px solid #e00000;
         h1{
             color: $very_dark_grayish_blue;
         }
