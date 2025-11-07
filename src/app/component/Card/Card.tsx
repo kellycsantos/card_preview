@@ -1,7 +1,9 @@
 import styles from "./Card.module.scss";
+import Image from "next/image";
+import { StaticImageData } from "next/image";
 
 type CardProps = {
-    image: string;
+    image: StaticImageData;
     alt: string;
     title: string;
     description: string;
@@ -11,8 +13,7 @@ type CardProps = {
 export const Card = ({ image,alt, title, description }: CardProps) => {
     return (
         <section className={styles.card}>
-            <img className={styles.card__image} src={image} alt={alt} />
-
+            <Image className={styles.card__image} src={image} alt={alt} />
             <article className={styles.card__content}>
                 <h1>{title}</h1>
                 <p>{description}</p>
