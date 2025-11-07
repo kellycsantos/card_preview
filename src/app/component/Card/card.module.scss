@@ -1,0 +1,26 @@
+@import "../../_global_colors.scss";
+
+.card{
+    background-color: $white;
+    display: flex;
+    margin: 10px 50px;
+    border-radius: 10px;
+    .card__image{
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+
+    .card__content{
+        padding: 35px;
+        border: 1px solid #e00000;
+        h1{
+            color: $very_dark_grayish_blue;
+        }
+        p{
+            color: $desaturated_dark_blue;
+            padding-block: 20px;
+        }
+    }
+
+}
