@@ -1,12 +1,8 @@
-:root {
-  /* --color-primary: #000000;
-  --color-secondary: #ffffff; */
-}
-
 *{
   padding: 0;
   margin: 0;
   box-sizing: border-box;
   text-decoration: none;
   list-style: none;
+  outline: none;
 }
